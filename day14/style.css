@@ -14,7 +14,7 @@ html,
 body {
     height: 100%;
     width: 100%;
-    background: #efebeb;
+    background: #ffffff;
 }
 #navbar{
     width:100%;
@@ -72,7 +72,7 @@ body {
     color: #ffffff;
 }
 #iPhoneAir{
-width: 100%;
+    width: 100%;
     height:74%;
     background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-air/hero_iphone_air__0gxyavihpiqu_medium_2x.jpg);
     background-size: 100%;
@@ -107,12 +107,15 @@ width: 100%;
     background-color: #007BFF;
     color: #ffffff;
 }
+
+
 #fsection{
     width: 100%;
     height:75%;
+    margin-top:-28px;
     display:flex;
-    justify-content:space-evenly;
-    align-items:center;
+    justify-content:space-around;
+    align-items:flex-end;
 }
 button{
     margin:10px;
@@ -169,8 +172,8 @@ button{
     width: 100%;
     height:75%;
     display:flex;
-    justify-content:space-evenly;
-    align-items:top;
+    justify-content:space-around;
+    align-items:center;
 }
 #ssection h1{
     font-size:55px;
@@ -230,8 +233,8 @@ button{
     width: 100%;
     height:75%;
     display:flex;
-    justify-content:space-evenly;
-    align-items:top;
+    justify-content:space-around;
+    align-items:flex-start;
 }
 #tsection h1{
     font-size:55px;
